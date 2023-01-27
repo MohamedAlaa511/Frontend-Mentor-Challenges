@@ -32,7 +32,7 @@
         font-family: 'Outfit', sans-serif;
             }
 
-      .container {
+      main {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -62,27 +62,28 @@
       .qr-card .card-body {
         width: 100%;
         text-align: center;
-        margin: 20px 0;
       }
 
        .qr-card_label {
-        font-size: 24px;
+        font-size: 21px;
         font-weight: 700;
+        padding: 20px 12px;
+        color: hsl(218, 44%, 22%);
       } 
 
        .qr-card_content {
         font-size: 15px;
-        font-weight: 400;
-         color: hsl(220, 15%, 55%);
-         padding: 20px 21px;      } 
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding: 0 12px;     } 
     </style>
   </head>
   <body>
-    <div class="container">
+    <main>
       <div class="qr-card">
-        <img src="images\image-qr-code.png" alt="error image not found" >
+        <img src="images/image-qr-code.png" alt="error image not found" >
         <div class="card-body">
-          <p class="qr-card_label">Improve your front-end skills by building projects </p>
+          <h1 class="qr-card_label">Improve your front-end skills by building projects </h1>
           <p class="qr-card_content">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level  </p>
         </div>
       </div>
@@ -90,6 +91,6 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#"> Mohamed Alaa </a>.
       </div>
-    </div>
+    </main>
   </body>
 </html>
